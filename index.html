@@ -1,5 +1,466 @@
+<!DOCTYPE html>
 <html>
+<head>
+	<title>Kashish Shah</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/jquery-ui.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+</head>
 <body>
-kashish shah here
+	<div id="loader">
+		<div id="loaderInner">
+			<i class="fa fa-cog fa-spin fa-3x fa-fw"></i>	
+		</div>
+	</div>
+	<div id="wrapper" class="margLTop  margLBottom" data-easytabs="true">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 noPaddingRight left-content">
+					<img src="img/profile.jpg">
+					<nav id="main-nav" class="main-nav clearfix tabbed">
+						<ul>
+							<li class="active"><a href="#about" class="active"><i class="fa fa-user" aria-hidden="true"></i>About</a></li>
+							<!-- <li><a href="#portfolio"><i class="fa fa-camera" aria-hidden="true"></i>Portfolio</a></li>
+							<li><a href="#blog"><i class="fa fa-comments" aria-hidden="true"></i>Blog</a></li> -->
+							<li><a id="sendEmail"><i class="fa fa-phone" aria-hidden="true"></i>Contact</a></li>
+						</ul>
+					</nav>
+					<div class="bottom-header bgWhite ofsTSmall ofsBSmall tCenter">
+						<ul class="social">
+							<li><a target="_blank" href="https://www.facebook.com/kashshah43"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+							<li><a target="_blank" href="https://www.linkedin.com/in/kashshah43"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+							<li><i class="fa fa-twitter-square" aria-hidden="true"></i></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-9 right-content">
+					<section id="about" class="bgWhite paddingB60" style="display: block;">
+						<div class="about">
+							<div class="main-title">
+								<h1>who am i</h1>
+								<div class="divider">
+									<div class="zigzag large clearfix " data-svg-drawing="yes">
+										<svg xml:space="preserve" viewBox="0 0 69.172 14.975" width="37" height="28" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1">
+											<path d="M1.357,12.26 10.807,2.81 20.328,12.332
+												29.781,2.879 39.223,12.321 48.754,2.79 58.286,12.321 67.815,2.793 " style="stroke-dasharray: 93.9851, 93.9851; stroke-dashoffset: 0;"></path>
+										</svg>
+									</div>
+								</div>
+							</div>
+							<div class="content">
+								<div class="block-content margBSmall">
+									<div class=" profile margBSmall">
+                    <h1>Kashish Shah</h1>
+                    <h3>full stack developer</h3>
+                  </div>
+                  <div class="row">
+										<div class="col-md-6">
+											<p>Don't exactly know how to describe myself in few sentences. An ambitious code-geek from the day one when I have attached with the IT industry. Kick started my career in July 2014 as a back-end developer along with that responsibility also gripped over the MEAN stack. Have experience to work with challenging, rewarding and hefty development with a fun, fast-paced environment.</p>
+										</div>
+										<div class="col-md-6">
+											<p>I keep following my dreams, curios to not only learn but also explore the opportunity and develop with innovative ideas. Result oriented person always come across challenges which drives me forward and opens the door of new luxury. In very short period of time, almost 2.5 years I have worked with number of technologies and get rid of so many obstacles. Many have doubts just due to the less experience but that is what on I never give damn.</p>
+										</div>
+									</div>
+								</div>
+								<div class="block-content">							
+									<div class="info">                               
+										<div class="row">
+											<div class="col-md-6">									
+												<ul class="info-list clearfix">
+													<li><span class="inf">Name </span>  <span class="value">Kashish Shah</span></li>
+													<li><span class="inf">Phone</span>  <span class="value"> +91 9408229002	</span></li>
+													<!-- <li><span class="inf">Date of birth</span>  <span class="value"> March 4, 1993 </span></li> -->
+													<!-- <li><span class="inf">Address</span>  <span class="value"> A/9, Sulabh Flats</span></li> -->
+												</ul>											
+											</div>
+											<div class="col-md-6">									
+												<ul class="info-list">
+													<li><span class="inf">Email</span>  <span class="value">kashshah43@gmail.com</span></li>
+													<li><span class="inf">Skype</span>  <span class="value">kashshah431</span></li>
+												</ul>											
+											</div>
+										</div>
+								  </div>
+								</div>
+							</div>
+							<div class="main-title">
+								<h1>professional skills</h1>
+								<div class="divider">
+									<div class="zigzag large clearfix " data-svg-drawing="yes">
+										<svg xml:space="preserve" viewBox="0 0 69.172 14.975" width="37" height="28" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1">
+											<path d="M1.357,12.26 10.807,2.81 20.328,12.332
+												29.781,2.879 39.223,12.321 48.754,2.79 58.286,12.321 67.815,2.793 " style="stroke-dasharray: 93.9851, 93.9851; stroke-dashoffset: 0;"></path>
+										</svg>
+									</div>
+								</div>
+							</div>
+							<div class="content">
+								<div class="block-content margBMedium">
+									<div class=" skill des">
+										<div class="row ">
+											<div class="vc">
+												<div class="col-md-11">
+													<ul class="skills-list clearfix">
+														<li>
+															<h4>Photoshop</h4>
+															<div class="progress">
+																<div class="percentage" style="width: 80%;"></div>
+															</div>
+														</li>
+														<!-- <li>
+															<h4>Illustrator</h4>
+															<div class="progress">
+																<div class="percentage" style="width: 85%;"></div>
+															</div>
+														</li> -->
+														<!-- <li>
+															<h4>Indesign</h4>
+															<div class="progress">
+																<div class="percentage" style="width: 70%;"></div>
+															</div>
+														</li> -->
+													</ul>
+												</div>
+												<div class="col-md-1">
+													<div class="title des">
+														<span>design</span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="block-content margBMedium">
+									<div class=" skill dev">
+										<div class="row">
+											<div class="vc">
+												<div class="col-md-11">
+													<ul class="skills-list clearfix">
+														<li>
+															<h4>Html/css</h4>
+															<div class="progress">
+																<div class="percentage" style="width: 98%;"></div>
+															</div>
+														</li>
+														<li>
+															<h4>javascript/jquery/angularjs/nodejs</h4>
+															<div class="progress">
+																<div class="percentage" style="width: 93%;"></div>
+															</div>
+														</li>
+														<li>
+															<h4>php/mysql</h4>
+															<div class="progress">
+																<div class="percentage" style="width: 90%;"></div>
+															</div>
+														</li>
+														<li>
+															<h4>Ruby on Rails</h4>
+															<div class="progress">
+																<div class="percentage" style="width: 85%;"></div>
+															</div>
+														</li>
+													</ul>
+												</div>
+												<div class="col-md-1">
+													<div class="title dev">
+														<span>Coding </span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="block-content margBMedium">
+									<div class=" skill mob">
+										<div class="row">
+											<div class="vc">
+												<div class="col-md-11">
+													<ul class="skills-list clearfix">
+														<li>
+															<h4>ionic(Hybrid mobile app)</h4>
+															<div class="progress">
+																<div class="percentage" style="width: 95%;"></div>
+															</div>
+														</li>
+														<li>
+															<h4>ios native</h4>
+															<div class="progress">
+																<div class="percentage" style="width: 85%;"></div>
+															</div>
+														</li>
+													</ul>
+												</div>
+												<div class="col-md-1">
+													<div class="title mob">
+														<span>Mobile </span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="block-content">
+									<div class=" skill prs">
+										<div class="row ">
+											<div class="vc">
+												<div class="col-md-11">
+													<ul class="skills-list clearfix">
+														<li>
+															<h4>Responsible</h4>
+															<div class="progress">
+																<div class="percentage" style="width: 95%;"></div>
+															</div>
+														</li>
+														<li>
+															<h4>Creative</h4>
+															<div class="progress">
+																<div class="percentage" style="width: 80%;"></div>
+															</div>
+														</li>
+														<li>
+															<h4>Proactive</h4>
+															<div class="progress">
+																<div class="percentage" style="width: 90%;"></div>
+															</div>
+														</li>
+													</ul>
+												</div>
+												<div class="col-md-1">
+													<div class="title prs">
+														<span>assets </span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="main-title">
+								<h1>experience</h1>
+								<div class="divider">
+									<div class="zigzag large clearfix " data-svg-drawing="yes">
+										<svg xml:space="preserve" viewBox="0 0 69.172 14.975" width="37" height="28" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1">
+											<path d="M1.357,12.26 10.807,2.81 20.328,12.332
+												29.781,2.879 39.223,12.321 48.754,2.79 58.286,12.321 67.815,2.793 " style="stroke-dasharray: 93.9851, 93.9851; stroke-dashoffset: 0;"></path>
+										</svg>
+									</div>
+								</div>
+							</div>
+							<div class="content">
+								<div class="block-content">
+									<div class="timeline experience">
+										<div class="row ">
+											<div class="col-md-12">
+												<div class="exp-holder margTop">
+													<div class="exp">
+														<div class="hgroup">
+															<h4>Software Engineer – Sooryen Technology </h4>
+															<h6><i class="fa fa-calendar-o" aria-hidden="true"></i>July 2014 - <span class="current">Current</span></h6>
+														</div>
+														<p>Started as a back-end developer with PHP technology along with that explored the IONIC framework and MEAN stack technologies. Successfully delivered the mobile application for the android and ios platform. Also, I have worked with the ROR technologies and successfully delivered the requirements withinn deadline. Currently working to develop the native IOS application.</p>
+													</div>
+												</div>
+											</div>
+										</div>
+							    </div>
+								</div>
+							</div>
+							<div class="main-title">
+								<h1>Certification</h1>
+								<div class="divider">
+									<div class="zigzag large clearfix " data-svg-drawing="yes">
+										<svg xml:space="preserve" viewBox="0 0 69.172 14.975" width="37" height="28" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1">
+											<path d="M1.357,12.26 10.807,2.81 20.328,12.332
+												29.781,2.879 39.223,12.321 48.754,2.79 58.286,12.321 67.815,2.793 " style="stroke-dasharray: 93.9851, 93.9851; stroke-dashoffset: 0;"></path>
+										</svg>
+									</div>
+								</div>
+							</div>
+							<div class="content">
+								<div class="block-content">
+									<i class="fa fa-link" aria-hidden="true"></i>    <a href="https://www.google.com/partners/?authuser=1#i_profile;idtf=101991335014197478455;" target="_blank" class="Certificate" style="color: #333333">   Google Analytics Individual Qualification</a>
+								</div>
+							</div>
+							<div class="main-title">
+								<h1>Portfolio</h1>
+								<div class="divider">
+									<div class="zigzag large clearfix " data-svg-drawing="yes">
+										<svg xml:space="preserve" viewBox="0 0 69.172 14.975" width="37" height="28" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1">
+											<path d="M1.357,12.26 10.807,2.81 20.328,12.332
+												29.781,2.879 39.223,12.321 48.754,2.79 58.286,12.321 67.815,2.793 " style="stroke-dasharray: 93.9851, 93.9851; stroke-dashoffset: 0;"></path>
+										</svg>
+									</div>
+								</div>
+							</div>
+							<div class="content">
+								<div class="block-content">
+									<div class="works">
+										<div class="row">
+											<ul class="work">									
+												<li class="col-md-4">
+													<div class="item">
+														<a href="http://www.sooryen.com/case-study/500BC" target="_blank">
+															<div class="desc">
+																<h3 class="proj-desc">500BC
+																	<span>Mobile Application</span>
+																</h3>
+															</div>											
+															<img alt="" src="img/500bc.png">
+														</a>
+													</div>
+												</li>
+												<li class="col-md-4">
+													<div class="item web">
+														<a href="http://www.cafelearn.com" target="_blank">
+															<div class="desc">
+																<h3 class="proj-desc">Cafe Learn
+																	<span>web design/ web development</span>
+																</h3>
+															</div>											
+															<img alt="" src="img/cafelearn.jpg">
+														</a>
+													</div>
+												</li>
+												<li class="col-md-4">
+													<div class="item web">
+														<a href="https://hotelbids.com" target="_blank">
+															<div class="desc">
+																<h3 class="proj-desc">HotelBids
+																	<span>iOS Application</span>
+																</h3>
+															</div>											
+															<img alt="" src="img/hotelbids.png">
+														</a>
+													</div>
+												</li>
+												<li class="col-md-4">
+													<div class="item web">
+														<a href="http://nylottery.ny.gov/" target="_blank">
+															<div class="desc">
+																<h3 class="proj-desc">NEW YORK lottery
+																	<span>iOS Application</span>
+																</h3>
+															</div>											
+															<img alt="" src="img/nylottery.png" style="height: auto;max-width: 100%;">
+														</a>
+													</div>
+												</li>										
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="main-title">
+								<h1>Education</h1>
+								<div class="divider">
+									<div class="zigzag large clearfix " data-svg-drawing="yes">
+										<svg xml:space="preserve" viewBox="0 0 69.172 14.975" width="37" height="28" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1">
+											<path d="M1.357,12.26 10.807,2.81 20.328,12.332
+												29.781,2.879 39.223,12.321 48.754,2.79 58.286,12.321 67.815,2.793 " style="stroke-dasharray: 93.9851, 93.9851; stroke-dashoffset: 0;"></path>
+										</svg>
+									</div>
+								</div>
+							</div>
+							<div class="content">
+								<div class="block-content">
+									<div class="timeline education">
+										<div class="row ">
+											<div class="col-md-12">
+												<div class="exp-holder margTop">
+													<div class="exp">
+														<div class="hgroup">
+															<h4>Bachelor Degree – Information Technology </h4>
+															<h6><i class="fa fa-calendar-o" aria-hidden="true"></i>June 2010 - June 2014</h6>
+														</div>
+														<p>Pursued the Bachelor of Engineering with Information Technology stream from Gandhinagar Institute of Technology, Which is affiliated to All India Council of Technical Education. Passed out in July 2014 and in the same month started my career without wasting the time. Before that I did my final semester project training in Archer Solutions in JAVA technology.
+														</p>
+													</div>
+												</div>
+											</div>
+										</div>
+							    </div>
+								</div>
+							</div>
+							<!-- <div class="main-title">
+								<h1>Services</h1>
+								<div class="divider">
+									<div class="zigzag large clearfix " data-svg-drawing="yes">
+										<svg xml:space="preserve" viewBox="0 0 69.172 14.975" width="37" height="28" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1">
+											<path d="M1.357,12.26 10.807,2.81 20.328,12.332
+												29.781,2.879 39.223,12.321 48.754,2.79 58.286,12.321 67.815,2.793 " style="stroke-dasharray: 93.9851, 93.9851; stroke-dashoffset: 0;"></path>
+										</svg>
+									</div>
+								</div>
+							</div>
+							<div class="content">
+								<div class="block-content">
+									<div class="services">
+										<div class="row ">
+											<div class="block service tCenter">
+												<div class="col-md-4">
+													<div class="ico">
+														<i class="fa fa-life-ring" aria-hidden="true"></i>
+													</div>											
+													<div class="det">
+														<h3>Great Support</h3>
+														<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.</p>
+													</div>												
+												</div>
+												<div class="col-md-4">
+													<div class="ico">
+														<i class="fa fa-desktop" aria-hidden="true"></i>
+													</div>												
+													<div class="det">
+														<h3>Web Design</h3>
+														<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.</p>
+													</div>											
+												</div>
+												<div class="col-md-4">
+													<div class="ico">
+														<i class="fa fa-cogs" aria-hidden="true"></i>
+													</div>
+													<div class="det">
+														<h3>Development</h3>
+														<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.</p>
+													</div>												
+												</div>
+											</div>
+										</div>
+							    </div>
+								</div>
+							</div> -->
+							<div class="button margTop ofsInTop tCenter">
+								<div class="divider">
+									<div class="zigzag large clearfix " data-svg-drawing="yes">
+										<svg xml:space="preserve" viewBox="0 0 69.172 14.975" width="37" height="28" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1">
+											<path d="M1.357,12.26 10.807,2.81 20.328,12.332
+												29.781,2.879 39.223,12.321 48.754,2.79 58.286,12.321 67.815,2.793 " style="stroke-dasharray: 93.9851, 93.9851; stroke-dashoffset: 0;">
+											</path>
+										</svg>
+									</div>
+								</div>
+								<div class="row text-center">
+									<div class="col-md-12">
+										<a class="butn download icon"></i>Download my cv</a>
+										<a class="butn print icon">Print my resume</a>											
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div>		
+		</div>
+	</div>
 </body>
 </html>
