@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'Robot-Regular';
+  src: url('../font/RobotoCondensed-Regular.ttf') format('truetype'),
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Robot-Bold';
+  src: url('../font/RobotoCondensed-Bold.ttf') format('truetype'),
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Robot-BoldItalic';
+  src: url('../font/RobotoCondensed-BoldItalic.ttf') format('truetype'),
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Robot-Light';
+  src: url('../font/RobotoCondensed-Light.ttf') format('truetype'),
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Robot-LightItalic';
+  src: url('../font/RobotoCondensed-LightItalic.ttf') format('truetype'),
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Robot-Italic';
+  src: url('../font/RobotoCondensed-Italic.ttf') format('truetype'),
+  font-weight: normal;
+  font-style: normal;
+}
