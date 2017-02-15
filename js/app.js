@@ -9,7 +9,7 @@ $( document ).ready(function() {
 	});
 
 	$('.download').click(function() {
-		window.open('/kashishshah.pdf', '_blank', 'fullscreen=yes');
+		window.open('kashishshah.pdf', '_blank', 'fullscreen=yes');
 	});
 
 	$('#sendEmail').click(function() {
