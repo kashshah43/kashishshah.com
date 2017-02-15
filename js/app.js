@@ -9,18 +9,7 @@ $( document ).ready(function() {
 	});
 
 	$('.download').click(function() {
-	 	var req = new XMLHttpRequest();
-	  req.open("GET", "../kashishshah.pdf", true);
-	  req.responseType = "blob";
-	  req.onload = function (event) {
-	    var blob = req.response;
-	    console.log(blob.size);
-	    var link=document.createElement('a');
-	    link.href=window.URL.createObjectURL(blob);
-	    link.download="kashishshah.pdf";
-	    link.click();
-	  };
-	  req.send();
+		window.open('kashishshah.com/kashishshah.pdf', '_blank', 'fullscreen=yes');
 	});
 
 	$('#sendEmail').click(function() {
