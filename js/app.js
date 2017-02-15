@@ -10,7 +10,7 @@ $( document ).ready(function() {
 
 	$('.download').click(function() {
 	 	var req = new XMLHttpRequest();
-	  req.open("GET", "/kashishshah.pdf", true);
+	  req.open("GET", "../kashishshah.pdf", true);
 	  req.responseType = "blob";
 	  req.onload = function (event) {
 	    var blob = req.response;
